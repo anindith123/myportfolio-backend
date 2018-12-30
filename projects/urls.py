@@ -5,4 +5,5 @@ from django.urls import path
 
 urlpatterns = [
     path('', views.home, name="project_home"),
+    path('/resume/', views.home, name="project_resume"),
 ]

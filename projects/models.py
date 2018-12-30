@@ -8,6 +8,7 @@ class Project(models.Model):
     short_desc = models.TextField(max_length = 45,default = '#')
     tools       = models.TextField()
     git_link    = models.URLField(max_length = 250)
+    image_link = models.URLField(default = '#')
 
     
 
